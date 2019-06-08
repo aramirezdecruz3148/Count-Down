@@ -4,7 +4,7 @@ class App extends Component {
     renderTemplate() {
         return /*html*/`
         <div>
-            <main>
+            <main>TEST
             </main>
         </div>
         `;
