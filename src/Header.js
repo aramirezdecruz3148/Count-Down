@@ -4,7 +4,7 @@ class Header extends Component {
     renderTemplate() {
         return /*html*/`
         <header>
-            <h1>The Final Count Down!</h1>
+            <h1 class="title">The Final Count Down!</h1>
         </header>
         `;
     }

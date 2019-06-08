@@ -18,7 +18,7 @@ class Clock extends Component {
             document.getElementById('second').innerHTML = seconds;  
             if(timeDifference < 0) { 
                 clearInterval(x); 
-                document.getElementById('demo').innerHTML = 'TIME UP'; 
+                document.getElementById('clock-stopped').innerHTML = 'TIME UP'; 
                 document.getElementById('day').innerHTML = '0'; 
                 document.getElementById('hour').innerHTML = '0'; 
                 document.getElementById('minute').innerHTML = '0' ;  
@@ -33,20 +33,22 @@ class Clock extends Component {
         <div id="clock-div"> 
             <div> 
                 <span class="days" id="day"></span> 
-                <div class="smalltext">Days:</div> 
+                <div class="small-text">Days:</div> 
             </div> 
             <div> 
                 <span class="hours" id="hour"></span> 
-                <div class="smalltext">Hours:</div> 
+                <div class="small-text">Hours:</div> 
             </div> 
             <div> 
                 <span class="minutes" id="minute"></span> 
-                <div class="smalltext">Minutes:</div> 
+                <div class="small-text">Minutes:</div> 
             </div> 
             <div> 
                 <span class="seconds" id="second"></span> 
-                <div class="smalltext">Seconds:</div> 
+                <div class="small-text">Seconds:</div> 
             </div> 
+            <p id="clock-stopped"></p>
+            <img src="../assets/cat.gif">
         </div> 
         `;
     }

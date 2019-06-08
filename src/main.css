@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Cormorant+Garamond&display=swap');
+
+body{ 
+    text-align: center; 
+    background: #00ECB9; 
+    font-family: sans-serif; 
+    font-weight: 100; 
+    animation: header 5s infinite;
+} 
+
+h1 { 
+    font-weight: bolder; 
+    margin: 40px 0px 20px;
+    font-family: 'Archivo Black', sans-serif; 
+} 
+
+.header {
+    animation: header 5s infinite;
+    font-size: 2.5em;
+}
+
+@keyframes header {
+    0%{color: orange;}    
+  10%{color: purple;}    
+     20%{color: red;}
+  30%{color: CadetBlue;}
+     40%{color: yellow;}
+  50%{color: coral;}
+     60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+     100%{color: orange;}
+ }
+
+ #clock-div { 
+    font-family: sans-serif; 
+    color: #fff; 
+    display: inline-block; 
+    font-weight: 100; 
+    text-align: center; 
+    font-size: 30px; 
+} 
+
+#clock-div > div { 
+    padding: 10px; 
+    border-radius: 3px; 
+    background-image: url('../assets/rainbow.png'); 
+    display: inline-block; 
+} 
+
+#clock-div div > span { 
+    padding: 15px; 
+    border-radius: 3px; 
+    background: #00816A; 
+    display: inline-block; 
+    font-family: 'Cormorant Garamond', serif;
+} 
+
+.small-text { 
+    padding-top: 5px; 
+    font-size: 16px; 
+    font-weight: 150;
+    color: #00816A;
+    font-family: 'Archivo Black', sans-serif; 
+    text-shadow:1px 1px 1px white;
+} 
+
+img {
+    border-radius: 10%;
+    border: 3px solid #00816A;
+    width: 100px;
+    height: 100px;
+}
