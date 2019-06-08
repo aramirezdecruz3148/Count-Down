@@ -1,5 +1,6 @@
 import Component from '../utilities/Component.js';
 import Header from './Header.js';
+import Clock from './Clock.js';
 
 class App extends Component {
     render() {
@@ -9,7 +10,8 @@ class App extends Component {
         const header = new Header();
         dom.insertBefore(header.render(), main);
 
-        
+        const clock = new Clock();
+        main.appendChild(clock.render());
 
         return dom;
     }
