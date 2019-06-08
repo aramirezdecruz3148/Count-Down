@@ -48,7 +48,7 @@ class Clock extends Component {
                 <div class="small-text">Seconds:</div> 
             </div> 
             <p id="clock-stopped"></p>
-            <img src="../assets/cat.gif">
+            <img src="./assets/cat.gif">
         </div> 
         `;
     }
