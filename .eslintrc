@@ -11,11 +11,6 @@
     "browser": true,
     "es6": true
     },
-    "globals": {
-    "QUnit": false,
-    "firebase": false,
-    "firebaseui": false
-    },
     "rules": {
     "eqeqeq": [
     "error",
